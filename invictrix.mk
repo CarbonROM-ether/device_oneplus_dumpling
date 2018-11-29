@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dumpling device
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
-# Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+# Inherit some common Invictrix stuff.
+$(call inherit-product, vendor/invictrix/config/common_full_phone.mk)
 
 # GApps
 $(call inherit-product-if-exists, vendor/gapps/inline.mk)
@@ -31,7 +31,7 @@ $(call inherit-product-if-exists, vendor/gapps/inline.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += \
 DEVICE_MAINTAINERS="Alexander Brunswig"
 
-PRODUCT_NAME := aosip_dumpling
+PRODUCT_NAME := invictrix_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
