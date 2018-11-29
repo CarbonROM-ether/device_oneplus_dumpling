@@ -1,6 +1,6 @@
 [
   {
-    "repository": "AOSiP-dumpling/device_oneplus_msm8998-common",
+    "repository": "CarbonROM-ether/device_oneplus_msm8998-common",
     "target_path": "device/oneplus/msm8998-common"
   }
 ]
